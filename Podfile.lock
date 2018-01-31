@@ -1,0 +1,15 @@
+PODS:
+  - EZYGradientView (1.5.1)
+  - MARoundButton (0.1.7)
+
+DEPENDENCIES:
+  - EZYGradientView
+  - MARoundButton
+
+SPEC CHECKSUMS:
+  EZYGradientView: f13e7a9e774b906c66d617fb04a13c8853ba25b4
+  MARoundButton: 31967f6c80b89a795075ea6593d1102320d28dac
+
+PODFILE CHECKSUM: 44efbfa3d9e35e4d2dc848157ddee8b5aa3d4416
+
+COCOAPODS: 1.4.0
