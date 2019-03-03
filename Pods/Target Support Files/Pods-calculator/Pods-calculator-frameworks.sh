@@ -134,11 +134,9 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/EZYGradientView/EZYGradientView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MARoundButton/MARoundButton.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/EZYGradientView/EZYGradientView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MARoundButton/MARoundButton.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
